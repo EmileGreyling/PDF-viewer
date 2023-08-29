@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.top-bar {
+  background-color: #333;
+  color: white;
+  padding: 20px 10px;
+  position: sticky;
+  top: 0;
+}
+
+#fileInput {
+  float: right;
+}
+.btn {
+  background-color: rgb(123, 123, 245);
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+#pdf-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0
+}
+
