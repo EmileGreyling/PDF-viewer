@@ -14,7 +14,7 @@
 #fileInput {
   float: right;
 }
-.btn {
+.btn, input[type="file"]::-webkit-file-upload-button {
   background-color: rgb(123, 123, 245);
   border: none;
   cursor: pointer;
@@ -30,4 +30,3 @@
   justify-content: center;
   margin: 20px 0
 }
-
